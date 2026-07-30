@@ -1,0 +1,1913 @@
+{
+  "panitia": [
+    {
+      "kode": "GVEN",
+      "nama": "GVEN CARREY GUNAWAN",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/GVEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSICALIMITIA",
+      "nama": "JESSICA LIMITIA",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/JESSICALIMITIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KARISSA",
+      "nama": "KARISSA ROSELYNE",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/KARISSA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NIKITA",
+      "nama": "NIKITA WIJAYA",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/NIKITA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RONALD",
+      "nama": "RONALD RAMLIAN",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/RONALD.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VIJIE",
+      "nama": "VIJIE ANNISA DZATIL IZZAH",
+      "divisi": "ADHIKARA",
+      "divisi_folder": "00. BPH - ADHIKARA",
+      "foto_path": "assets/photos/00. BPH - ADHIKARA/VIJIE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANGELIQUE",
+      "nama": "ANGELIQUE SHANON LIE",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/ANGELIQUE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AUDREYAURANTICA",
+      "nama": "AUDREY AURANTICA",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/AUDREYAURANTICA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AURELIACALLISTA",
+      "nama": "AURELIA CALLISTA FEBRIANI WIJAYANTO",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/AURELIACALLISTA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GABRIELA",
+      "nama": "GABRIELA ZAHRAFANI",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/GABRIELA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GIOVANNY",
+      "nama": "GIOVANNY NATHANOEL BONARDY",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/GIOVANNY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "INORU",
+      "nama": "INORU DEBORA JOYEUX",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/INORU.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RASYA",
+      "nama": "RASYA RAHADITYA FAWWAZ",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/RASYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SAVA",
+      "nama": "SAVA RAQIA CHRISNA",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/SAVA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YOSEPH",
+      "nama": "YOSEPH TEGAR",
+      "divisi": "SANCHARA",
+      "divisi_folder": "01. EVENT - SANCHARA",
+      "foto_path": "assets/photos/01. EVENT - SANCHARA/YOSEPH.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANCILLA",
+      "nama": "ANCILLA MAURA CORNELIA SETIAWAN",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/ANCILLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CLARA",
+      "nama": "CLARA DOROTHEA WIDJAJA",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/CLARA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARCELLO",
+      "nama": "MARCELLO HANNAN ELIAS",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/MARCELLO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARVELENRICO",
+      "nama": "MARVEL ENRICO BUN",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/MARVELENRICO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MATTHEW",
+      "nama": "MATTHEW",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/MATTHEW.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MELVIN",
+      "nama": "MELVIN JOVAN HARYANTO",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/MELVIN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MIKAEL",
+      "nama": "MIKAEL REFAYA ABBISENA",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/MIKAEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PETER",
+      "nama": "PETER JONATHAN",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/PETER.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RICHARD",
+      "nama": "RICHARD",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/RICHARD.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SAMUEL",
+      "nama": "SAMUEL STEWARD JOE",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/SAMUEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SEAN",
+      "nama": "SEAN EDMUND RUKMANA",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/SEAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "STANISLAUS",
+      "nama": "STANISLAUS JASSON",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/STANISLAUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "TOBYAS",
+      "nama": "TOBYAS KEANE JAYADI HALIM",
+      "divisi": "SANCHITA",
+      "divisi_folder": "02. DOKUM - SANCHITA",
+      "foto_path": "assets/photos/02. DOKUM - SANCHITA/TOBYAS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AHMAD",
+      "nama": "AHMAD ZAHRAN RAZZAQ",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/AHMAD.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALEXANDRA",
+      "nama": "ALEXANDRA LINAWA",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/ALEXANDRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALYA",
+      "nama": "ALYA VIRGIA AURELLINE",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/ALYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANDREW",
+      "nama": "ANDREW REYNARD HAMDANI",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/ANDREW.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANGELICA",
+      "nama": "ANGELICA VICTORIA CASSANDRA",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/ANGELICA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENAYA",
+      "nama": "BENAYA ONESIMUS",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/BENAYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FEMMY",
+      "nama": "FEMMY ADYA ESA AGUSTIN",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/FEMMY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FREDY",
+      "nama": "FREDY WIJAYA_",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/FREDY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JEREMIAHNATANAEL",
+      "nama": "JEREMIAH NATANAEL",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/JEREMIAHNATANAEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JUSTIN",
+      "nama": "JUSTIN MATTHEW VERNANDI",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/JUSTIN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LEROY",
+      "nama": "LEROY ALVARO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/LEROY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LOUISA",
+      "nama": "LOUISA CLARESTA GIANINA SRIKUNING",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/LOUISA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARIA",
+      "nama": "MARIA JESIA AKSA SAYEKTI",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/MARIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARIO",
+      "nama": "MARIO MAYSAN SAMSUDIN",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/MARIO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADILYAS",
+      "nama": "MUHAMMAD ILYAS APRIANSYAH",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/MUHAMMADILYAS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADTECHNO",
+      "nama": "MUHAMMAD TECHNO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/MUHAMMADTECHNO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "OWEN",
+      "nama": "OWEN AURELIUS",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/OWEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PATRICIALIESHA",
+      "nama": "PATRICIA LIESHA KARTADINATA",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/PATRICIALIESHA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RACHEL",
+      "nama": "RACHEL NATHANIA SUTANTO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/RACHEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RAFFAEL",
+      "nama": "RAFFAEL VALENTINO GUNAWAN",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/RAFFAEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RIOHAWARI",
+      "nama": "RIO HAWARI PUTRA HAKIM",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/RIOHAWARI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SHAKIRA",
+      "nama": "SHAKIRA ARIESTA CANDIDO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/SHAKIRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "TERESIA",
+      "nama": "TERESIA TAMBA",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/TERESIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "THEO",
+      "nama": "THEO JULIOVANO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/THEO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "THEOFANUS",
+      "nama": "THEOFANUS ADITYA KRISNANTO",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/THEOFANUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VALENT",
+      "nama": "VALENT",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/VALENT.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YOGA",
+      "nama": "YOGA FIRMANSYAH",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/YOGA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YOHANNA",
+      "nama": "YOHANNA MARIAM WALMSLEY",
+      "divisi": "BIRENDRA",
+      "divisi_folder": "03. GUARDIANS - BIRENDRA",
+      "foto_path": "assets/photos/03. GUARDIANS - BIRENDRA/YOHANNA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ADELINE",
+      "nama": "ADELINE GRACIA PATRIAS",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/ADELINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALFONSUSHARYO",
+      "nama": "ALFONSUS HARYO UTOMO",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/ALFONSUSHARYO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ARSYA",
+      "nama": "ARSYA BINTANG PRADANA",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/ARSYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ASTY",
+      "nama": "ASTY FELYSHIA EKA DANASTRI",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/ASTY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CARRISA",
+      "nama": "CARRISA ANASTASYA",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/CARRISA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHRISFORUS",
+      "nama": "CHRISFORUS ARTHURO JULIANNELIS",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/CHRISFORUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CYNTHIA",
+      "nama": "CYNTHIA GUNAWAN SALIM",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/CYNTHIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DAVELNO",
+      "nama": "DAVELNO DANISH RAZIQ",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/DAVELNO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ELEASHA",
+      "nama": "ELEASHA PAULINE RINALDY",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/ELEASHA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FERY",
+      "nama": "FERY DARMAWAN",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/FERY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HARVEY",
+      "nama": "HARVEY ODIE NUGROHO",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/HARVEY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JEREMIAHDAVIS",
+      "nama": "JEREMIAH DAVIS SURYANEGARA",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/JEREMIAHDAVIS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSICACLAIRINE",
+      "nama": "JESSICA CLAIRINE",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/JESSICACLAIRINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KEZHIA",
+      "nama": "KEZHIA PUTRI DEVIANA",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/KEZHIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KHALILA",
+      "nama": "KHALILA AZIZAH PUTRI SETIAWAN",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/KHALILA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MANDA",
+      "nama": "MANDA KHALISHA PUTRI_",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/MANDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RIESCA",
+      "nama": "RIESCA ANISA NURAINI",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/RIESCA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SAFIRA",
+      "nama": "SAFIRA AMANDA SAUSAN",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/SAFIRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SHABINA",
+      "nama": "SHABINA HAFIYA AMANIA",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/SHABINA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VINCENTIA",
+      "nama": "VINCENTIA MICHELLE SANTOSO",
+      "divisi": "NAYAKA",
+      "divisi_folder": "04. FNB - NAYAKA",
+      "foto_path": "assets/photos/04. FNB - NAYAKA/VINCENTIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALBERT",
+      "nama": "ALBERT JOSEPH PANOPIO SONAKA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/ALBERT.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALBERTALEXANDER",
+      "nama": "ALBERT_ALEXANDER",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/ALBERTALEXANDER.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AMELYANI",
+      "nama": "AMELYANI LINDRAWATI",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/AMELYANI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDICTUSDARRELL",
+      "nama": "BENEDICTUS DARRELL SUNANTO ARUP",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/BENEDICTUSDARRELL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDIKTA",
+      "nama": "BENEDIKTA ANABELLA PASCALIA_",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/BENEDIKTA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BIANCA",
+      "nama": "BIANCA PATRICIA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/BIANCA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CACA",
+      "nama": "CACA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/CACA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHELSEA",
+      "nama": "CHELSEA STEPHANIE",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/CHELSEA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DANIELLA",
+      "nama": "DANIELLA PUTRI MAHENDRA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/DANIELLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DEVINA",
+      "nama": "DEVINA CAROLINE RICHARDO",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/DEVINA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "EDELINE",
+      "nama": "EDELINE AMELINDA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/EDELINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ELDO",
+      "nama": "ELDO APRIANTO",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/ELDO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ENRICO",
+      "nama": "ENRICO FELIX KHOSALIM",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/ENRICO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FELICIAELORA",
+      "nama": "FELICIA ELORA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/FELICIAELORA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FELLYCIA",
+      "nama": "FELLYCIA CALLISTA BUNTORO",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/FELLYCIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GLADYS",
+      "nama": "GLADYS ANGELINA MULIA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/GLADYS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JENNIFER",
+      "nama": "JENNIFER HUANG",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/JENNIFER.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSICAKRISOLOGUS",
+      "nama": "JESSICA KRISOLOGUS",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/JESSICAKRISOLOGUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSICAANGELA",
+      "nama": "JESSICA_ANGELA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/JESSICAANGELA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSLYN",
+      "nama": "JESSLYN GABRIELLE WIDJAJA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/JESSLYN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LUSI",
+      "nama": "LUSI ROULI SIAHAAN",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/LUSI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARCELLUS",
+      "nama": "MARCELLUS ADITYA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/MARCELLUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MEAGHEN",
+      "nama": "MEAGHEN SHINTA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/MEAGHEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MICHELLE",
+      "nama": "MICHELLE FLOVERA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/MICHELLE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADIHSAN",
+      "nama": "MUHAMMAD IHSAN ZHAFRAN",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/MUHAMMADIHSAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADRIZKY",
+      "nama": "MUHAMMAD RIZKY HARDANI",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/MUHAMMADRIZKY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NABILA",
+      "nama": "NABILA MALVA NAIRA KRISTIAWAN",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NABILA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NADYA",
+      "nama": "NADYA NURUL SUCI",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NADYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NASYA",
+      "nama": "NASYA AURELIA SUSANTO",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NASYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NI",
+      "nama": "NI NYOMAN CRUS DEWATA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NICHOLASBENELIS",
+      "nama": "NICHOLAS BENELIS TERRENCE_",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NICHOLASBENELIS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NITYA",
+      "nama": "NITYA JIVITA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/NITYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PATRICIATHENDA",
+      "nama": "PATRICIA THENDA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/PATRICIATHENDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PRICYLLIA",
+      "nama": "PRICYLLIA HALIM",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/PRICYLLIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "QUEENTHARRA",
+      "nama": "QUEENTHARRA MAZAYA ANDITA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/QUEENTHARRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RAISYA",
+      "nama": "RAISYA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/RAISYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "REYNER",
+      "nama": "REYNER DEVLIN SAPUTRA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/REYNER.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SAHUDA",
+      "nama": "SAHUDA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/SAHUDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SALLY",
+      "nama": "SALLY ZAHARA LOVIAN BOYD",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/SALLY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SHEILLA",
+      "nama": "SHEILLA CITRA SHAFINA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/SHEILLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SHERYL",
+      "nama": "SHERYL LETICIA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/SHERYL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "THERESA",
+      "nama": "THERESA HANSDELA TOMAS",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/THERESA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VALERIE",
+      "nama": "VALERIE MARIA VALENCIA SANTOSO_",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/VALERIE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VERINA",
+      "nama": "VERINA MITTA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/VERINA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VIANNY",
+      "nama": "VIANNY HALIMAWAN",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/VIANNY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VIONI",
+      "nama": "VIONI GIESELLA LAURENZA",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/VIONI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VIRIA",
+      "nama": "VIRIA FENISIA EUNIKE",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/VIRIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "WILLEAM",
+      "nama": "WILLEAM HEZEKIAH GUNAWAN",
+      "divisi": "JANARDANA",
+      "divisi_folder": "05. MEDIC - JANARDANA",
+      "foto_path": "assets/photos/05. MEDIC - JANARDANA/WILLEAM.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AISYAH",
+      "nama": "AISYAH MAHARANI",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/AISYAH.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALFANFITO",
+      "nama": "ALFANFITO NARENDRA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/ALFANFITO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALFONSUSARYAVEDA",
+      "nama": "ALFONSUS ARYAVEDA MAHARDIKA MANDARIS",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/ALFONSUSARYAVEDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDICTUSAGSEL",
+      "nama": "BENEDICTUS AGSEL PRIHANTO",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/BENEDICTUSAGSEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHRISTELLIN",
+      "nama": "CHRISTELLIN",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/CHRISTELLIN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FARRAS",
+      "nama": "FARRAS GHAZAM HANEL",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/FARRAS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FATHIR",
+      "nama": "FATHIR ALVARO FABIAN",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/FATHIR.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FERNANDO",
+      "nama": "FERNANDO APRIYANDY",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/FERNANDO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GABRIEL",
+      "nama": "GABRIEL STANZA OCTOBER",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/GABRIEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GAZA",
+      "nama": "GAZA RAMANDA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/GAZA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "GREGORIUS",
+      "nama": "GREGORIUS GIGIH SUSETYANTARA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/GREGORIUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HAZEL",
+      "nama": "HAZEL DANIEL RINETYO ADI",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/HAZEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "I",
+      "nama": "I MADE ARIADNE BAYANAKA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/I.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KEIRA",
+      "nama": "KEIRA DEAN UTARSA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/KEIRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MADDAVA",
+      "nama": "MADDAVA ARYA CHANGGASUKHA_",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/MADDAVA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MATTHEWAZIEL",
+      "nama": "MATTHEW AZIEL LARUMUNDE",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/MATTHEWAZIEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADIRFAN",
+      "nama": "MUHAMMAD IRFAN RIZKY NASUTION",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/MUHAMMADIRFAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADSHANOLAF",
+      "nama": "MUHAMMAD SHANOLAF MALIK",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/MUHAMMADSHANOLAF.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NANDANA",
+      "nama": "NANDANA ATYANTA SATWIKA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/NANDANA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NAOMI",
+      "nama": "NAOMI PATRICIA LEANDRU",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/NAOMI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NICHOLASADHIPRAMANA",
+      "nama": "NICHOLAS ADHIPRAMANA CANDRA",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/NICHOLASADHIPRAMANA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PINGKAN",
+      "nama": "PINGKAN NONIE UMBOH",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/PINGKAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RICHI",
+      "nama": "RICHI MICHAEL NG",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/RICHI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RIOFEBRIAN",
+      "nama": "RIO FEBRIAN",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/RIOFEBRIAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VALLENT",
+      "nama": "VALLENT LIEM",
+      "divisi": "DARAKA",
+      "divisi_folder": "06. EQUIPMENT - DARAKA",
+      "foto_path": "assets/photos/06. EQUIPMENT - DARAKA/VALLENT.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AGNES",
+      "nama": "AGNES",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/AGNES.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AIMAN",
+      "nama": "AIMAN ELHAMY AJMAL",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/AIMAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALEXA",
+      "nama": "ALEXA CLEOPHILA YESERELLA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALEXA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALEXANDER",
+      "nama": "ALEXANDER BRIANT",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALEXANDER.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALIA",
+      "nama": "ALIA FAIZA ZHAFIRA (MAREEN)",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALIF",
+      "nama": "ALIF RIANO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALIF.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALLISSA",
+      "nama": "ALLISSA HANDINI WILANDA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALLISSA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ALMA",
+      "nama": "ALMA AZ ZHARA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ALMA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANGELINE",
+      "nama": "ANGELINE FU",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ANGELINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ANNISA",
+      "nama": "ANNISA FEBRIANTI",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ANNISA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ASTRELLA",
+      "nama": "ASTRELLA LEVINA THENDY",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ASTRELLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AUDREYYOUNG",
+      "nama": "AUDREY YOUNG ANN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/AUDREYYOUNG.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AVIELLA",
+      "nama": "AVIELLA YOKE",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/AVIELLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDICTAASTRELLA",
+      "nama": "BENEDICTA ASTRELLA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/BENEDICTAASTRELLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CAIRENT",
+      "nama": "CAIRENT CEESY",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CAIRENT.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CARISSA",
+      "nama": "CARISSA FREDLINA KUANDRA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CARISSA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHARA",
+      "nama": "CHARA CORNELIA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CHARA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHARLES",
+      "nama": "CHARLES ADITYA LIU",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CHARLES.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CHATRINE",
+      "nama": "CHATRINE LAURENTSYA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CHATRINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DAVALYNDA",
+      "nama": "DAVALYNDA EDELINE",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/DAVALYNDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DAVID",
+      "nama": "DAVID",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/DAVID.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DERRYLIA",
+      "nama": "DERRYLIA MUTIARA FASHA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/DERRYLIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DEVA",
+      "nama": "DEVA CHANDRA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/DEVA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "EVELYN",
+      "nama": "EVELYN NATASHA_",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/EVELYN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FABYANDRA",
+      "nama": "FABYANDRA PUTRA SETIAWAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/FABYANDRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FELICITASKOMALASARIUTAMI",
+      "nama": "FELICITASKOMALASARIUTAMI",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/FELICITASKOMALASARIUTAMI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FREYA",
+      "nama": "FREYA TATIANNA LIMANUS",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/FREYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HAIKAL",
+      "nama": "HAIKAL AMIRULLAH PUTRA PRIBOWO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/HAIKAL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HARLAN",
+      "nama": "HARLAN JOHANES PARJUANGAN TAMBUNAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/HARLAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JENNA",
+      "nama": "JENNA ADRIANA KARAMOY",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JENNA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESAQUEEN",
+      "nama": "JESAQUEEN RACHEL",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JESAQUEEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JESSICANATALIE",
+      "nama": "JESSICA NATALIE GERALDINE",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JESSICANATALIE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JOANNA",
+      "nama": "JOANNA CLARENCE ISABEL",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JOANNA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JONATHANCHANDRA",
+      "nama": "JONATHAN CHANDRA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JONATHANCHANDRA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JONATHANEDBERT",
+      "nama": "JONATHAN EDBERT SANTOSO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JONATHANEDBERT.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JOSEPHINE",
+      "nama": "JOSEPHINE ANNABELLA WITARSA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JOSEPHINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KATHERINA",
+      "nama": "KATHERINA LEA SETIYONO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/KATHERINA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KAYLA",
+      "nama": "KAYLA TINAYA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/KAYLA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "KELVIN",
+      "nama": "KELVIN FULVIANO PRANATA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/KELVIN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LADY",
+      "nama": "LADY SERENITY",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/LADY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LOUISE",
+      "nama": "LOUISE LIORA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/LOUISE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARCELO",
+      "nama": "MARCELO EVAN HERMAWAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MARCELO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARSYA",
+      "nama": "MARSYA ADRIANI M",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MARSYA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MICHELLIN",
+      "nama": "MICHELLIN PALIT",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MICHELLIN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MOZA",
+      "nama": "MOZA DINATA RAISHA_",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MOZA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MUHAMMADDZAKY",
+      "nama": "MUHAMMAD DZAKY PUTRA CAHYADI",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MUHAMMADDZAKY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NAFTALINO",
+      "nama": "NAFTALINO MALOMA TANZIL",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/NAFTALINO.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NATALIA",
+      "nama": "NATALIA SUJADI",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/NATALIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NINGSIH",
+      "nama": "NINGSIH SRI HASTUTI",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/NINGSIH.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RAYHAN",
+      "nama": "RAYHAN FERDINAND A.",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/RAYHAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "REZON",
+      "nama": "REZON ALBION",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/REZON.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROW",
+      "nama": "ROW1_ QUEENNA PRICILLA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROW.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWMATTHEW",
+      "nama": "ROW1_MATTHEW FERNANDO SHELDON",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWMATTHEW.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWJOSHUA",
+      "nama": "ROW2_JOSHUA IVANDER HARTAWAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWJOSHUA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWNADINE",
+      "nama": "ROW2_NADINE MARCIA KAWITONO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWNADINE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWYOCELYN",
+      "nama": "ROW2_YOCELYN BERNESSA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWYOCELYN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWJUSTINEESTEVAN",
+      "nama": "ROW3_JUSTINEESTEVAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWJUSTINEESTEVAN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ROWCLARISSA",
+      "nama": "ROW5_CLARISSA THALIA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/ROWCLARISSA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "TANIA",
+      "nama": "TANIA AMANDA SENTOSA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/TANIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "THERY",
+      "nama": "THERY YOUCHELIN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/THERY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VALENCIA",
+      "nama": "VALENCIA MARLYN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/VALENCIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "WARILY",
+      "nama": "WARILY TISSA KARTANA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/WARILY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YOVANKA",
+      "nama": "YOVANKA AURELIA PATRICIA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/YOVANKA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YUSICA",
+      "nama": "YUSICA AIREN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/YUSICA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AMANDA",
+      "nama": "AMANDA LIVIA BAHAR",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/AMANDA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CINDY",
+      "nama": "CINDY CLAUDYA",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/CINDY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "DHIMAS",
+      "nama": "DHIMAS ALKAUTSAR PUTRA ALIF VIANO",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/DHIMAS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "ERSA",
+      "nama": "ERSA ZAHRA MAULIYA",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/ERSA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JEVANIA",
+      "nama": "JEVANIA",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/JEVANIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LALITA",
+      "nama": "LALITA APRILIA AVERA",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/LALITA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "PATRICIAJANE",
+      "nama": "PATRICIA JANE HUNGSIE",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/PATRICIAJANE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "SHANIA",
+      "nama": "SHANIA VALENCIA",
+      "divisi": "ANANTARA",
+      "divisi_folder": "08. PR - ANANTARA",
+      "foto_path": "assets/photos/08. PR - ANANTARA/SHANIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "AURELIASYAHIDATI",
+      "nama": "AURELIA SYAHIDATI",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/AURELIASYAHIDATI.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BEATRICE",
+      "nama": "BEATRICE GRACIELA HADI",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/BEATRICE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDICTACHERYL",
+      "nama": "BENEDICTA CHERYL SUHERLIM",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/BENEDICTACHERYL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "BENEDICTACINDY",
+      "nama": "BENEDICTA CINDY NATHANIA",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/BENEDICTACINDY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HASNA",
+      "nama": "HASNA HANA MARITZA",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/HASNA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JOSEFIEN",
+      "nama": "JOSEFIEN NATHALIE B",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/JOSEFIEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "LEVINA",
+      "nama": "LEVINA KUMALASARI DARSANA",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/LEVINA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "MARVELAURELIUS",
+      "nama": "MARVEL AURELIUS CHANDRA",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/MARVELAURELIUS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "STHEVANIE",
+      "nama": "STHEVANIE AULIA CATHARINA WIJAYA",
+      "divisi": "SWARNA",
+      "divisi_folder": "09. VISUAL - SWARNA",
+      "foto_path": "assets/photos/09. VISUAL - SWARNA/STHEVANIE.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "CLEMENS",
+      "nama": "CLEMENS PUTRA KUSMERI",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/CLEMENS.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "EMMANUEL",
+      "nama": "EMMANUEL WILSON FERNANDO",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/EMMANUEL.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "FELICIAAULIA",
+      "nama": "FELICIA AULIA SUHERMAN",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/FELICIAAULIA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "HAKIM",
+      "nama": "HAKIM ULINNUHA",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/HAKIM.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "RICHARDSTERN",
+      "nama": "RICHARD STERN CHANDRA",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/RICHARDSTERN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "STEVEN",
+      "nama": "STEVEN HANS SYAHBANA",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/STEVEN.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "VIKA",
+      "nama": "VIKA GISELLA",
+      "divisi": "RACHANA",
+      "divisi_folder": "10. WEBSITE - RACHANA",
+      "foto_path": "assets/photos/10. WEBSITE - RACHANA/VIKA.webp",
+      "pesan": ""
+    }
+  ],
+  "divisi_messages": {
+    "ADHIKARA": "",
+    "ANANTARA": "",
+    "ARTHA": "",
+    "BIRENDRA": "",
+    "DARAKA": "",
+    "JANARDANA": "",
+    "NAYAKA": "",
+    "RACHANA": "",
+    "SANCHARA": "",
+    "SANCHITA": "",
+    "SWARNA": ""
+  }
+}
