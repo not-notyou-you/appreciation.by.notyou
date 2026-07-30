@@ -4,10 +4,13 @@ import { elements } from './dom.js';
 import { appState, updateProgressBar } from './state.js';
 import { renderPanitiaData } from './render.js';
 import { resetBungaPosition, handleBungaClick } from './bunga.js';
-import { triggerEE1Secret, triggerEE2, triggerEE3, triggerEE4, triggerEE5 } from './easter-eggs.js';
+import { resetPhotoPosition } from './swipe.js';
+import { showModal } from './modal.js';
+import { triggerSelfDestruct, resetSelfDestruct } from './self-destruct.js';
+import { triggerEE1Secret, triggerEE3, triggerEE4, triggerEE5 } from './easter-eggs.js';
 import { claimReward } from './reward.js';
 import { findPanitia, validateInput } from './data.js';
-import { STORAGE_LAST_KODE_KEY } from './constants.js';
+import { STORAGE_LAST_KODE_KEY, DIVISI_DESCRIPTIONS } from './constants.js';
 
 export function switchToPostInput(panitia) {
   appState.mode = 'post-input';
@@ -21,6 +24,8 @@ export function switchToPostInput(panitia) {
   localStorage.setItem(STORAGE_LAST_KODE_KEY, panitia.kode);
 
   resetBungaPosition();
+  resetPhotoPosition();
+  resetSelfDestruct();
   renderPanitiaData(panitia);
   setupPostInputEventListeners();
 }
@@ -32,12 +37,10 @@ export function switchToPreInput() {
 
   elements.postInputMode.classList.add('hidden');
   elements.preInputMode.classList.remove('hidden');
-  elements.preInputMode.style.backgroundColor = '';
 
   elements.codeInput.value = '';
   elements.inputError.textContent = '';
   elements.startButton.disabled = true;
-  elements.dangerButton.classList.remove('visible');
   resetBungaPosition();
 
   document.body.style.backgroundImage = '';
@@ -47,9 +50,22 @@ export function switchToPreInput() {
 }
 
 function setupPostInputEventListeners() {
-  elements.dangerButton.onclick = () => triggerEE2();
   elements.hibiscusLogoTopBtn.onclick = () => handleBungaClick(triggerEE4);
   elements.backButton.onclick = () => switchToPreInput();
+  elements.selfDestructButton.onclick = () => triggerSelfDestruct();
+
+  elements.divisionBadge.onclick = () => {
+    const divisi = (appState.currentPanitia && appState.currentPanitia.divisi
+      ? appState.currentPanitia.divisi
+      : ''
+    ).toString().trim().toUpperCase();
+
+    elements.divisionInfoTitle.textContent = divisi || 'Divisi';
+    elements.divisionInfoText.textContent = DIVISI_DESCRIPTIONS[divisi] || 'Penjelasan divisi belum tersedia.';
+
+    showModal(elements.modalDivisionInfo);
+  };
+
   elements.claimButton.onclick = () => {
     claimReward();
     setTimeout(() => {
@@ -81,6 +97,10 @@ export function setupPreInputEventListeners() {
   });
 
   elements.startButton.addEventListener('click', handleStartClick);
+
+  elements.hibiscusLogoBtn.addEventListener('click', () => {
+    showModal(elements.modalOmbInfo);
+  });
 }
 
 function handleStartClick() {

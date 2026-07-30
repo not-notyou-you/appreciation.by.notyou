@@ -8,78 +8,136 @@ import { resetBungaPosition } from './bunga.js';
 
 export function triggerEE1Secret(input) {
   if (input === 'NOTYOU') {
-    elements.preInputMode.style.backgroundColor = '#000000';
     showModal(elements.modalEE1Notyou);
-    elements.notyouRefreshBtn.onclick = () => {
-      location.reload();
+
+    const toggleFlip = () => {
+      elements.app.classList.toggle('flipped');
+      closeModal(elements.modalEE1Notyou);
     };
+
+    elements.notyouRefreshBtn.onclick = toggleFlip;
+    elements.notyouFlipBtn.onclick = toggleFlip;
+
     return true;
   }
 
   const validSecrets = ['FAIQ', 'HAKIM', 'ULINNUHA'];
   if (validSecrets.includes(input)) {
-    if (!appState.progress.ee1) {
-      appState.progress.ee1 = true;
-      saveProgress();
-      updateProgressBar();
-    }
-    showModal(elements.modalEE1Secret);
-    setupModalDismiss(elements.modalEE1Secret);
+    showEE1Question();
     return true;
   }
 
   return false;
 }
 
-export function triggerEE2() {
-  if (!elements.modalEE2Danger.classList.contains('hidden')) return;
+function showEE1Question() {
+  elements.ee1Checkboxes.forEach((checkbox) => {
+    checkbox.checked = false;
+    checkbox.onchange = () => {
+      const allChecked = elements.ee1Checkboxes.every((cb) => cb.checked);
+      elements.ee1ConfirmBtn.disabled = !allChecked;
+    };
+  });
 
+  elements.ee1ConfirmBtn.disabled = true;
+
+  elements.ee1ConfirmBtn.onclick = () => {
+    closeModal(elements.modalEE1Question);
+
+    if (!appState.progress.ee1) {
+      appState.progress.ee1 = true;
+      saveProgress();
+      updateProgressBar();
+    }
+
+    showModal(elements.modalEE1Secret);
+    setupModalDismiss(elements.modalEE1Secret);
+  };
+
+  showModal(elements.modalEE1Question);
+}
+
+let ee2Active = false;
+
+function spawnChaosElement(supergrafisImages) {
+  const img = document.createElement('img');
+  const randomGrafis = supergrafisImages[Math.floor(Math.random() * supergrafisImages.length)];
+  img.src = `./assets/supergrafis/${randomGrafis}`;
+  img.classList.add('chaos-element');
+
+  const startX = Math.random() * window.innerWidth;
+  const startY = Math.random() * window.innerHeight;
+  const endX = (Math.random() - 0.5) * window.innerWidth * 2;
+  const endY = (Math.random() - 0.5) * window.innerHeight * 2;
+  const rotation = Math.random() * 360;
+
+  img.style.left = startX + 'px';
+  img.style.top = startY + 'px';
+  img.style.width = Math.random() * 84 + 28 + 'px';
+  img.style.setProperty('--tx', endX + 'px');
+  img.style.setProperty('--ty', endY + 'px');
+  img.style.setProperty('--rot', rotation);
+
+  elements.chaosContainer.appendChild(img);
+}
+
+export function triggerEE2() {
+  if (ee2Active) return;
+  ee2Active = true;
+
+  elements.chaosContainer.innerHTML = '';
+
+  const modalContent = elements.modalEE2Danger.querySelector('.modal-content');
+  const backdrop = elements.modalEE2Danger.querySelector('.modal-backdrop');
+
+  modalContent.classList.add('pending');
+  elements.modalEE2Danger.classList.remove('hidden');
+  backdrop.onclick = null;
+
+  const supergrafisImages = ['1.webp', '3.webp', '5.webp', '6.webp', '8.webp', '10.webp'];
+  const totalCount = 75;
+  let spawned = 0;
+
+  const interval = setInterval(() => {
+    spawnChaosElement(supergrafisImages);
+    spawned++;
+
+    if (spawned >= totalCount) {
+      clearInterval(interval);
+      finishEE2(modalContent);
+    }
+  }, 100);
+}
+
+function finishEE2(modalContent) {
   if (!appState.progress.ee2) {
     appState.progress.ee2 = true;
     saveProgress();
     updateProgressBar();
   }
 
-  showModal(elements.modalEE2Danger);
-
-  const supergrafisImages = ['1.webp', '3.webp', '5.webp', '6.webp', '8.webp', '10.webp'];
-  const chaosCount = 50;
-
-  for (let i = 0; i < chaosCount; i++) {
-    const img = document.createElement('img');
-    const randomGrafis = supergrafisImages[Math.floor(Math.random() * supergrafisImages.length)];
-    img.src = `./assets/supergrafis/${randomGrafis}`;
-    img.classList.add('chaos-element');
-
-    const startX = Math.random() * window.innerWidth;
-    const startY = Math.random() * window.innerHeight;
-    const endX = (Math.random() - 0.5) * window.innerWidth * 2;
-    const endY = (Math.random() - 0.5) * window.innerHeight * 2;
-    const rotation = Math.random() * 360;
-
-    img.style.left = startX + 'px';
-    img.style.top = startY + 'px';
-    img.style.width = Math.random() * 60 + 20 + 'px';
-    img.style.setProperty('--tx', endX + 'px');
-    img.style.setProperty('--ty', endY + 'px');
-    img.style.setProperty('--rot', rotation);
-
-    elements.chaosContainer.appendChild(img);
-  }
-
-  setTimeout(() => {
-    elements.chaosContainer.innerHTML = '';
-  }, 5000);
+  modalContent.classList.remove('pending');
 
   elements.dangerRefreshBtn.onclick = () => {
     closeModal(elements.modalEE2Danger);
     elements.chaosContainer.innerHTML = '';
+    ee2Active = false;
   };
 }
 
 export function triggerEE3(onReject) {
   appState.currentQuestionIndex = 0;
   showEE3Question(onReject);
+}
+
+function triggerWrongFeedback(modalContent) {
+  elements.flashOverlay.classList.remove('active');
+  void elements.flashOverlay.offsetWidth;
+  elements.flashOverlay.classList.add('active');
+
+  modalContent.classList.remove('shake');
+  void modalContent.offsetWidth;
+  modalContent.classList.add('shake');
 }
 
 function showEE3Question(onReject) {
@@ -90,6 +148,9 @@ function showEE3Question(onReject) {
 
   const question = EE3_QUESTIONS[appState.currentQuestionIndex];
   elements.modalQuestionText.textContent = question;
+
+  elements.questionYesBtn.disabled = false;
+  elements.questionNoBtn.disabled = false;
 
   showModal(elements.modalEE3Question);
 
@@ -104,9 +165,17 @@ function showEE3Question(onReject) {
   };
 
   const noHandler = () => {
-    appState.currentQuestionIndex++;
-    closeModal(elements.modalEE3Question);
-    showEE3Question(onReject);
+    elements.questionYesBtn.disabled = true;
+    elements.questionNoBtn.disabled = true;
+
+    const modalContent = elements.modalEE3Question.querySelector('.modal-content');
+    triggerWrongFeedback(modalContent);
+
+    setTimeout(() => {
+      appState.currentQuestionIndex++;
+      closeModal(elements.modalEE3Question);
+      showEE3Question(onReject);
+    }, 350);
   };
 
   elements.questionYesBtn.onclick = yesHandler;
@@ -130,13 +199,13 @@ function triggerEE3Final() {
 }
 
 export function triggerEE4() {
-  if (appState.progress.ee4) return;
+  if (!appState.progress.ee4) {
+    appState.progress.ee4 = true;
+    saveProgress();
+    updateProgressBar();
+  }
 
-  appState.progress.ee4 = true;
-  saveProgress();
-  updateProgressBar();
   resetBungaPosition();
-
   showModal(elements.modalEE4Bunga);
 
   elements.bungaRedirectBtn.onclick = () => {

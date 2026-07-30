@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Subuah Apresiasi</title>
+  <link rel="icon" type="image/x-icon" href="./logo.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
@@ -25,9 +26,9 @@
       </svg>
 
       <div class="pre-input-content">
-        <div class="logo-container">
+        <button id="hibiscus-logo-btn" class="hibiscus-logo-btn" type="button" aria-label="Tentang OMB UMN 2026 NEXT">
           <img src="./assets/logo.webp" alt="Logo Hibiscus" class="hibiscus-logo" loading="lazy">
-        </div>
+        </button>
 
         <h1 class="title">Sebuah Apresiasi</h1>
         <p class="subtitle">dari seorang penulis untuk seorang pembaca yang tidak akan melanggar peraturan</p>
@@ -69,20 +70,20 @@
     <!-- POST-INPUT MODE -->
     <section id="post-input-mode" class="mode-container hidden">
       <div id="post-input-content" class="post-input-content">
-        <div class="post-title">
-          <h2 class="post-title-headline">Apresiasi Pejuang Kembang Sepatu</h2>
-          <p class="post-title-sub">jangan langgar aturan, jangan langgar aturan, jangan langgar aturan, jangan langgar aturan</p>
-        </div>
-
         <!-- TOP SECTION: Logo & Division Badge -->
         <div class="top-section">
           <button id="hibiscus-logo-top-btn" class="hibiscus-logo-top-btn" aria-label="Klik logo untuk easter egg">
             <img id="hibiscus-logo-top" src="./assets/logo.webp" alt="Logo Hibiscus" class="hibiscus-logo-top" loading="lazy">
           </button>
 
-          <div id="division-badge" class="division-badge">
+          <button id="division-badge" class="division-badge" type="button" aria-label="Lihat penjelasan divisi">
             <img id="division-logo" src="" alt="Logo Divisi" class="division-logo" loading="lazy">
-          </div>
+          </button>
+        </div>
+
+        <div class="post-title">
+          <h2 class="post-title-headline">Apresiasi Pejuang Kembang Sepatu</h2>
+          <p class="post-title-sub">jangan langgar aturan, jangan langgar aturan, jangan langgar aturan, jangan langgar aturan</p>
         </div>
 
         <svg class="wave-divider wave-divider--section" viewBox="0 0 1200 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -92,10 +93,8 @@
         <!-- MIDDLE SECTION: Photo, Name, Division, Message -->
         <div class="middle-section">
           <div class="photo-container">
-            <img id="panitia-photo" src="" alt="Foto Panitia" class="panitia-photo" loading="lazy">
-            <button id="danger-button" class="danger-button" aria-label="Reveal easter egg danger">
-              DANGER
-            </button>
+            <button id="danger-label" class="danger-label" type="button" aria-label="Tekan untuk memicu easter egg danger">DANGER</button>
+            <img id="panitia-photo" src="" alt="Foto Panitia" class="panitia-photo" loading="lazy" draggable="false">
           </div>
 
           <div class="info-section">
@@ -130,12 +129,68 @@
           <button id="back-button" class="button button--secondary" aria-label="Kembali ke mode input">
             KEMBALI
           </button>
+
+          <button id="self-destruct-button" class="button button--danger" aria-label="Jangan ditekan">
+            DANGER
+          </button>
         </div>
       </div>
     </section>
   </main>
 
   <!-- MODALS -->
+
+  <!-- Modal: Hibiscus Logo Info (OMB description) -->
+  <div id="modal-omb-info" class="modal hidden" role="dialog" aria-labelledby="modal-omb-info-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-omb-info-title" class="modal-title">OMB UMN 2026 NEXT</h2>
+      <div class="modal-body">
+        <p>Rangkaian penyambutan mahasiswa baru Universitas Multimedia Nusantara. Wadah bagi mahasiswa baru untuk mengenal lingkungan kampus, mengambil langkah awal di dunia perkuliahan, serta membangun integritas diri. Kegiatan ini dirancang untuk mahasiswa baru agar dapat mempersiapkan diri memasuki dunia perkuliahan, serta menjadi pribadi yang berkarakter dan berintegritas.</p>
+        <p class="omb-info-hint">Masih ada bunga lain untuk di cari</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Division Info -->
+  <div id="modal-division-info" class="modal hidden" role="dialog" aria-labelledby="modal-division-info-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-division-info-title" class="modal-title"></h2>
+      <div class="modal-body">
+        <p id="modal-division-info-text"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: EE1 Question (must check all 4 to proceed) -->
+  <div id="modal-ee1-question" class="modal hidden" role="dialog" aria-labelledby="modal-ee1-question-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-ee1-question-title" class="modal-title">Dari Mana Kau Mengetahui Nama Penulis?</h2>
+      <div class="modal-body">
+        <div class="checkbox-group">
+          <label class="checkbox-option">
+            <input type="checkbox" class="ee1-checkbox">
+            <span>Dari arsip negara</span>
+          </label>
+          <label class="checkbox-option">
+            <input type="checkbox" class="ee1-checkbox">
+            <span>Dari taman bunga kembang sepatu</span>
+          </label>
+          <label class="checkbox-option">
+            <input type="checkbox" class="ee1-checkbox">
+            <span>Dari agen Universitas Multimedia Indonesia</span>
+          </label>
+          <label class="checkbox-option">
+            <input type="checkbox" class="ee1-checkbox">
+            <span>Dari the my temen gw</span>
+          </label>
+        </div>
+      </div>
+      <button class="button button--primary" id="ee1-question-confirm-btn" disabled aria-label="Konfirmasi jawaban">LANJUT</button>
+    </div>
+  </div>
 
   <!-- Modal: EE1 Secret Unlock -->
   <div id="modal-ee1-secret" class="modal hidden" role="dialog" aria-labelledby="modal-ee1-title">
@@ -177,7 +232,10 @@
       <div class="modal-body">
         <p>AKSES DITOLAK. SISTEM TERKUNCI. ANDA BUKAN NOTYOU. SILAHKAN "JUST REFRESH" YOW</p>
       </div>
-      <button class="button button--danger" id="notyou-refresh-btn" aria-label="Refresh halaman">HARD REFRESH</button>
+      <div class="modal-buttons">
+        <button class="button button--danger" id="notyou-refresh-btn" aria-label="Tutup modal">HARD REFRESH</button>
+        <button class="button button--danger" id="notyou-flip-btn" aria-label="Balikkan tampilan">JUST REFRESH</button>
+      </div>
     </div>
   </div>
 
@@ -186,7 +244,7 @@
     <div class="modal-backdrop" tabindex="0"></div>
     <div id="chaos-container" class="chaos-container" aria-hidden="true"></div>
     <div class="modal-content">
-      <h2 id="modal-danger-title" class="modal-title">APAKAH KAU TAU ARTI DANGER?</h2>
+      <h2 id="modal-danger-title" class="modal-title">APAKAH KAU TAU ARTI "DANGER"?</h2>
       <div class="modal-body">
         <p>Mungkin, tidak.</p>
       </div>
@@ -250,5 +308,7 @@
   </div>
 
   <script type="module" src="./js/app.js"></script>
+  <div id="flash-overlay" class="flash-overlay" aria-hidden="true"></div>
+  <div id="refresh-prompt" class="refresh-prompt hidden" aria-hidden="true">Silahkan Refresh Halaman</div>
 </body>
 </html>

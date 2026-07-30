@@ -34,3 +34,17 @@ export const BG_IMAGES = [
   './assets/BG/BG6.webp',
   './assets/BG/BG7.webp'
 ];
+
+export const DIVISI_DESCRIPTIONS = {
+  'ADHIKARA': 'Divisi Adhikara bertugas sebagai pusat kendali yang menentukan langkah dan pedoman bagi seluruh panitia OMB UMN 2026 NEXT.',
+  'SANCHARA': 'Divisi Sanchara bertugas mengatur jalannya kegiatan agar tersusun rapi, mengalir, dan berkesan dari awal hingga akhir.',
+  'SANCHITA': 'Divisi Sanchita mengabadikan seluruh kegiatan agar dapat dikenang dan menjadi arsip OMB UMN 2026 NEXT.',
+  'BIRENDRA': 'Divisi Birendra menjaga tertib dan keamanan seluruh kegiatan OMB UMN 2026 NEXT.',
+  'NAYAKA': 'Divisi Nayaka memastikan semua kebutuhan konsumsi terpenuhi agar peserta nyaman selama kegiatan.',
+  'JANARDANA': 'Divisi Janardana memberikan pertolongan dan menjaga keselamatan peserta selama kegiatan berlangsung.',
+  'DARAKA': 'Divisi Daraka memastikan semua kebutuhan teknis siap agar kegiatan berjalan lancar.',
+  'ARTHA': 'Divisi Artha membimbing dan mengarahkan anggota berdasarkan pengetahuan dan pengalaman yang dimiliki.',
+  'ANANTARA': 'Divisi Anantara menjaga komunikasi yang lancar dan menghubungkan semua pihak terkait kegiatan OMB UMN 2026 NEXT.',
+  'SWARNA': 'Divisi Swarna mengekspresikan kreativitas melalui desain dan visual kegiatan OMB UMN 2026 NEXT.',
+  'RACHANA': 'Divisi Rachana menyebarkan informasi secara luas, jelas, dan tepat waktu.'
+};

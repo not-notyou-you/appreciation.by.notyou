@@ -10,20 +10,6 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
-function buildLaurelLeaves(side) {
-  const leaves = [];
-  const count = 7;
-  const radius = 34;
-  const range = side === 'left' ? [195, 345] : [15, 165];
-  for (let i = 0; i < count; i++) {
-    const t = i / (count - 1);
-    const angle = range[0] + (range[1] - range[0]) * t;
-    const leafSize = 8 + t * 3;
-    leaves.push(`<ellipse cx="80" cy="${(80 - radius).toFixed(1)}" rx="4.5" ry="${leafSize.toFixed(1)}" transform="rotate(${angle.toFixed(1)} 80 80)"/>`);
-  }
-  return leaves.join('');
-}
-
 function buildWavePattern(id) {
   return `
     <pattern id="${id}" width="46" height="70" patternUnits="userSpaceOnUse">
@@ -40,9 +26,9 @@ function formatCertificateDate() {
 }
 
 function generateRewardHTML(panitia) {
-  const nama = escapeHtml((panitia && panitia.nama ? panitia.nama : 'Panitia OMB UMN 2026 NEXT').toString().trim());
+  const nama = escapeHtml((panitia && panitia.nama ? panitia.nama : 'Pejuang Kembang Sepatu').toString().trim());
   const divisi = escapeHtml((panitia && panitia.divisi ? panitia.divisi : '').toString().trim());
-  const subtitleLine = divisi ? `PANITIA DIVISI ${divisi} &mdash; OMB UMN 2026 NEXT` : 'PANITIA OMB UMN 2026 NEXT';
+  const subtitleLine = divisi ? `PANITIA DIVISI ${divisi} &mdash; PEJUANG KEMBANG SEPATU` : 'PEJUANG KEMBANG SEPATU';
   const dateStr = formatCertificateDate();
 
   const html = `<!DOCTYPE html>
@@ -53,7 +39,7 @@ function generateRewardHTML(panitia) {
   <title>Sertifikat Apresiasi - ${nama}</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body {
@@ -119,7 +105,8 @@ function generateRewardHTML(panitia) {
       text-transform: uppercase;
     }
     .name {
-      font-family: 'Alex Brush', cursive;
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700;
       font-size: clamp(2.4rem, 7vw, 4.2rem);
       line-height: 1.1;
       margin-top: 0.5rem;
@@ -172,25 +159,43 @@ function generateRewardHTML(panitia) {
       color: #a8a8ae;
       letter-spacing: 1px;
     }
-    .badge-block {
-      flex: 0 0 auto;
-      display: flex;
-      justify-content: center;
-    }
-    .badge {
-      width: 108px;
-      height: 108px;
-      color: #F7CE1C;
-    }
-    .signature-block {
+    .stamp-block {
       flex: 1;
       min-width: 130px;
-      text-align: right;
+      display: flex;
+      justify-content: flex-end;
     }
-    .signature-line {
-      width: 130px;
-      margin-left: auto;
-      color: #a8a8ae;
+    .stamp {
+      position: relative;
+      width: 116px;
+      height: 116px;
+      border-radius: 50%;
+      border: 3px solid #c23b3b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: rotate(-11deg);
+      opacity: 0.85;
+    }
+    .stamp::before {
+      content: '';
+      position: absolute;
+      inset: 7px;
+      border: 1.5px solid #c23b3b;
+      border-radius: 50%;
+    }
+    .stamp-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #c23b3b;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: 0.68rem;
+      letter-spacing: 1.5px;
+      text-align: center;
+      line-height: 1.5;
+      text-transform: uppercase;
     }
     .actions {
       margin-top: 2.5rem;
@@ -222,8 +227,7 @@ function generateRewardHTML(panitia) {
       .content { padding: 2.25rem 1.5rem 2rem; }
       .headline { letter-spacing: 5px; }
       .footer-row { justify-content: center; text-align: center; }
-      .signature-block { text-align: center; }
-      .signature-line { margin: 0 auto; }
+      .stamp-block { justify-content: center; }
     }
   </style>
 </head>
@@ -247,7 +251,7 @@ function generateRewardHTML(panitia) {
       <div class="name-underline"></div>
       <div class="name-subtitle">${subtitleLine}</div>
 
-      <p class="description">Sebagai bentuk apresiasi atas dedikasi, waktu, dan semangat yang telah diberikan selama menjadi bagian dari panitia OMB UMN 2026 NEXT. Terima kasih telah menyelesaikan seluruh rangkaian easter egg dalam surat apresiasi ini.</p>
+      <p class="description">Sebagai bentuk apresiasi atas dedikasi, waktu, dan semangat yang telah diberikan selama menjadi bagian dari Pejuang Kembang Sepatu. Terima kasih telah menyelesaikan seluruh rangkaian easter egg dalam surat apresiasi ini.</p>
 
       <div class="footer-row">
         <div class="footer-block">
@@ -255,29 +259,18 @@ function generateRewardHTML(panitia) {
           <div class="footer-value">${dateStr}</div>
         </div>
 
-        <div class="badge-block">
-          <svg class="badge" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <circle cx="80" cy="80" r="46" fill="none" stroke="currentColor" stroke-width="2.5"/>
-            <circle cx="80" cy="80" r="38" fill="none" stroke="currentColor" stroke-width="1" opacity="0.5"/>
-            <text x="80" y="76" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="15" fill="currentColor" letter-spacing="1">OMB</text>
-            <text x="80" y="93" text-anchor="middle" font-family="Montserrat" font-weight="600" font-size="10" fill="currentColor" letter-spacing="2">2026 NEXT</text>
-            <g fill="currentColor">
-              ${buildLaurelLeaves('left')}
-              ${buildLaurelLeaves('right')}
-            </g>
-          </svg>
-        </div>
-
-        <div class="signature-block">
-          <div class="footer-label">Tanda Tangan</div>
-          <svg class="signature-line" viewBox="0 0 160 50" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M5,35 C20,10 30,45 45,20 C55,5 65,35 80,15 C90,5 100,30 115,12 C125,2 135,25 150,15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-          </svg>
+        <div class="stamp-block">
+          <div class="stamp">
+            <div class="stamp-text">
+              <span>Approved</span>
+              <span>by NOTYOU</span>
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="actions">
-        <button onclick="window.location.href='https://omb.umn.ac.id'">Kembali ke OMB</button>
+        <button onclick="window.location.href='https://omb.umn.ac.id'">Saya Bersemangat</button>
       </div>
     </div>
   </div>
