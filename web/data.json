@@ -1345,6 +1345,14 @@
       "pesan": ""
     },
     {
+      "kode": "CLARISSA",
+      "nama": "CLARISSA THALIA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/CLARISSA.webp",
+      "pesan": ""
+    },
+    {
       "kode": "DAVALYNDA",
       "nama": "DAVALYNDA EDELINE",
       "divisi": "ARTHA",
@@ -1378,7 +1386,7 @@
     },
     {
       "kode": "EVELYN",
-      "nama": "EVELYN NATASHA_",
+      "nama": "EVELYN NATASHA",
       "divisi": "ARTHA",
       "divisi_folder": "07. PIC - ARTHA",
       "foto_path": "assets/photos/07. PIC - ARTHA/EVELYN.webp",
@@ -1481,6 +1489,22 @@
       "pesan": ""
     },
     {
+      "kode": "JOSHUA",
+      "nama": "JOSHUA IVANDER HARTAWAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JOSHUA.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "JUSTINEESTEVAN",
+      "nama": "JUSTINEESTEVAN",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/JUSTINEESTEVAN.webp",
+      "pesan": ""
+    },
+    {
       "kode": "KATHERINA",
       "nama": "KATHERINA LEA SETIYONO",
       "divisi": "ARTHA",
@@ -1537,6 +1561,14 @@
       "pesan": ""
     },
     {
+      "kode": "MATTHEWFERNANDO",
+      "nama": "MATTHEW FERNANDO SHELDON",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/MATTHEWFERNANDO.webp",
+      "pesan": ""
+    },
+    {
       "kode": "MICHELLIN",
       "nama": "MICHELLIN PALIT",
       "divisi": "ARTHA",
@@ -1546,7 +1578,7 @@
     },
     {
       "kode": "MOZA",
-      "nama": "MOZA DINATA RAISHA_",
+      "nama": "MOZA DINATA RAISHA",
       "divisi": "ARTHA",
       "divisi_folder": "07. PIC - ARTHA",
       "foto_path": "assets/photos/07. PIC - ARTHA/MOZA.webp",
@@ -1558,6 +1590,14 @@
       "divisi": "ARTHA",
       "divisi_folder": "07. PIC - ARTHA",
       "foto_path": "assets/photos/07. PIC - ARTHA/MUHAMMADDZAKY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "NADINE",
+      "nama": "NADINE MARCIA KAWITONO",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/NADINE.webp",
       "pesan": ""
     },
     {
@@ -1585,6 +1625,14 @@
       "pesan": ""
     },
     {
+      "kode": "QUEENNA",
+      "nama": "QUEENNA PRICILLA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/QUEENNA.webp",
+      "pesan": ""
+    },
+    {
       "kode": "RAYHAN",
       "nama": "RAYHAN FERDINAND A.",
       "divisi": "ARTHA",
@@ -1598,62 +1646,6 @@
       "divisi": "ARTHA",
       "divisi_folder": "07. PIC - ARTHA",
       "foto_path": "assets/photos/07. PIC - ARTHA/REZON.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROW",
-      "nama": "ROW1_ QUEENNA PRICILLA",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROW.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWMATTHEW",
-      "nama": "ROW1_MATTHEW FERNANDO SHELDON",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWMATTHEW.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWJOSHUA",
-      "nama": "ROW2_JOSHUA IVANDER HARTAWAN",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWJOSHUA.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWNADINE",
-      "nama": "ROW2_NADINE MARCIA KAWITONO",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWNADINE.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWYOCELYN",
-      "nama": "ROW2_YOCELYN BERNESSA",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWYOCELYN.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWJUSTINEESTEVAN",
-      "nama": "ROW3_JUSTINEESTEVAN",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWJUSTINEESTEVAN.webp",
-      "pesan": ""
-    },
-    {
-      "kode": "ROWCLARISSA",
-      "nama": "ROW5_CLARISSA THALIA",
-      "divisi": "ARTHA",
-      "divisi_folder": "07. PIC - ARTHA",
-      "foto_path": "assets/photos/07. PIC - ARTHA/ROWCLARISSA.webp",
       "pesan": ""
     },
     {
@@ -1686,6 +1678,14 @@
       "divisi": "ARTHA",
       "divisi_folder": "07. PIC - ARTHA",
       "foto_path": "assets/photos/07. PIC - ARTHA/WARILY.webp",
+      "pesan": ""
+    },
+    {
+      "kode": "YOCELYN",
+      "nama": "YOCELYN BERNESSA",
+      "divisi": "ARTHA",
+      "divisi_folder": "07. PIC - ARTHA",
+      "foto_path": "assets/photos/07. PIC - ARTHA/YOCELYN.webp",
       "pesan": ""
     },
     {

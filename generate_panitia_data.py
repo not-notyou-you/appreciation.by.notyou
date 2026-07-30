@@ -101,7 +101,7 @@ def extract_divisi_name(folder_name):
 def extract_nama_from_filename(filename, divisi_name=""):
     """
     Extract nama lengkap dari filename (format: 'DIVISI_NAMA.ext' atau 'DIVISI - NAMA')
-    Special handling untuk ARTHA: ignore "ROW x_" prefix
+    Special handling untuk ARTHA: REMOVE "ROW x_" prefix sepenuhnya (bukan nama)
     Return: (nama_lengkap, file_ext) atau (None, None) jika error
     """
     name_without_ext = Path(filename).stem
@@ -110,21 +110,21 @@ def extract_nama_from_filename(filename, divisi_name=""):
     if not name_without_ext:
         return None, None
     
-    # Split by underscore atau dash
+    # SPECIAL: ARTHA - HAPUS "DIVISI_ROW x_" pattern SEBELUM extract nama
+    # Karena ROW adalah pembagian wilayah, bukan bagian dari nama
+    if divisi_name == "ARTHA":
+        # Remove pattern seperti "ARTHA_ROW 1_" atau "ARTHA_ROW1_" (berbagai format)
+        name_without_ext = re.sub(r'^[A-Z_]+ROW\s*\d+\s*[_\-]?\s*', '', name_without_ext, flags=re.IGNORECASE)
+    
+    # Sekarang split by underscore atau dash (untuk divisi lain atau ARTHA setelah ROW dihapus)
     if "_" in name_without_ext:
         parts = name_without_ext.split("_", 1)
-        nama = parts[1].strip() if len(parts) > 1 else None
+        nama = parts[1].strip() if len(parts) > 1 else parts[0].strip()
     elif "-" in name_without_ext:
         parts = name_without_ext.split("-", 1)
-        nama = parts[1].strip() if len(parts) > 1 else None
+        nama = parts[1].strip() if len(parts) > 1 else parts[0].strip()
     else:
         nama = name_without_ext
-    
-    # SPECIAL: ARTHA - ignore "ROW x_" prefix (semua ARTHA sama, tidak dibedakan per row)
-    if divisi_name == "ARTHA" and nama:
-        # Remove "ROW x_" prefix jika ada (case-insensitive)
-        nama = re.sub(r'^ROW\s+\d+_\s*', '', nama, flags=re.IGNORECASE)
-        nama = re.sub(r'^ROW\d+\s+', '', nama, flags=re.IGNORECASE)
     
     return nama, ext
 
