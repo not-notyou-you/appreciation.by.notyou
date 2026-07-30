@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surat Apresiasi OMB UMN 2026 NEXT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main id="app">
+    <!-- PRE-INPUT MODE -->
+    <section id="pre-input-mode" class="mode-container">
+      <svg class="bloom-decoration bloom-decoration--pre" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <g fill="none" stroke="currentColor" stroke-width="1">
+          <ellipse cx="200" cy="120" rx="60" ry="90" transform="rotate(0 200 200)"/>
+          <ellipse cx="200" cy="120" rx="60" ry="90" transform="rotate(72 200 200)"/>
+          <ellipse cx="200" cy="120" rx="60" ry="90" transform="rotate(144 200 200)"/>
+          <ellipse cx="200" cy="120" rx="60" ry="90" transform="rotate(216 200 200)"/>
+          <ellipse cx="200" cy="120" rx="60" ry="90" transform="rotate(288 200 200)"/>
+          <circle cx="200" cy="200" r="18"/>
+        </g>
+      </svg>
+
+      <div class="pre-input-content">
+        <div class="logo-container">
+          <img src="./assets/logo.webp" alt="Logo Hibiscus" class="hibiscus-logo" loading="lazy">
+        </div>
+
+        <h1 class="title">Surat Apresiasi</h1>
+        <p class="subtitle">OMB UMN 2026 NEXT</p>
+
+        <svg class="wave-divider" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0,20 C200,40 400,0 600,20 C800,40 1000,0 1200,20" fill="none" stroke="currentColor" stroke-width="2"/>
+        </svg>
+
+        <div class="input-wrapper">
+          <label for="code-input" class="input-label">Masukkan Kode Anda</label>
+          <input
+            type="text"
+            id="code-input"
+            class="code-input"
+            placeholder="MASUKKAN KODE"
+            maxlength="30"
+            autocomplete="off"
+            aria-label="Input kode unik"
+            aria-describedby="input-error"
+          >
+          <div id="input-error" class="input-error" role="alert" aria-live="polite"></div>
+        </div>
+
+        <button id="start-button" class="button button--primary" disabled aria-label="Mulai mengakses surat apresiasi">
+          MULAI
+        </button>
+
+        <div class="progress-bar-container">
+          <div class="progress-label" aria-label="Progress easter eggs">
+            <span id="progress-count">0</span>/4
+          </div>
+          <div class="progress-bar-outer">
+            <div id="progress-bar-inner" class="progress-bar-inner"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POST-INPUT MODE -->
+    <section id="post-input-mode" class="mode-container hidden">
+      <div id="post-input-content" class="post-input-content">
+        <div class="post-title">
+          <h2 class="post-title-headline">Apresiasi</h2>
+          <p class="post-title-sub">Dari pengirim untuk pembaca, jangan langgar aturan</p>
+        </div>
+
+        <!-- TOP SECTION: Logo & Division Badge -->
+        <div class="top-section">
+          <button id="hibiscus-logo-top-btn" class="hibiscus-logo-top-btn" aria-label="Klik logo untuk easter egg">
+            <img id="hibiscus-logo-top" src="./assets/logo.webp" alt="Logo Hibiscus" class="hibiscus-logo-top" loading="lazy">
+          </button>
+
+          <div id="division-badge" class="division-badge">
+            <img id="division-logo" src="" alt="Logo Divisi" class="division-logo" loading="lazy">
+          </div>
+        </div>
+
+        <svg class="wave-divider wave-divider--section" viewBox="0 0 1200 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0,15 C300,30 900,0 1200,15" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+
+        <!-- MIDDLE SECTION: Photo, Name, Division, Message -->
+        <div class="middle-section">
+          <div class="photo-container">
+            <img id="panitia-photo" src="" alt="Foto Panitia" class="panitia-photo" loading="lazy">
+            <button id="danger-button" class="danger-button" aria-label="Reveal easter egg danger">
+              DANGER
+            </button>
+          </div>
+
+          <div class="info-section">
+            <h2 id="panitia-nama" class="panitia-nama"></h2>
+            <p id="panitia-divisi" class="panitia-divisi"></p>
+          </div>
+
+          <div class="message-container">
+            <p id="panitia-message" class="panitia-message"></p>
+          </div>
+        </div>
+
+        <svg class="wave-divider wave-divider--section" viewBox="0 0 1200 30" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M0,15 C300,0 900,30 1200,15" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+
+        <!-- BOTTOM SECTION: Progress & Buttons -->
+        <div class="bottom-section">
+          <div class="progress-bar-container">
+            <div class="progress-label" aria-label="Progress easter eggs">
+              <span id="progress-count-post">0</span>/4
+            </div>
+            <div class="progress-bar-outer">
+              <div id="progress-bar-inner-post" class="progress-bar-inner"></div>
+            </div>
+          </div>
+
+          <button id="claim-button" class="button button--claim hidden" aria-label="Klaim reward setelah menyelesaikan semua easter eggs">
+            CLAIM
+          </button>
+
+          <button id="back-button" class="button button--secondary" aria-label="Kembali ke mode input">
+            KEMBALI
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODALS -->
+
+  <!-- Modal: EE1 Secret Unlock -->
+  <div id="modal-ee1-secret" class="modal hidden" role="dialog" aria-labelledby="modal-ee1-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <svg class="modal-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <rect x="5" y="11" width="14" height="9" rx="2"/>
+        <path d="M8 11V7a4 4 0 0 1 8 0v4"/>
+      </svg>
+      <h2 id="modal-ee1-title" class="modal-title">SECRET UNLOCK</h2>
+      <div class="modal-body">
+        <p>Kamu telah menemukan rahasia yang tersembunyi.</p>
+        <svg class="modal-graphic" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="100" cy="100" r="80" fill="none" stroke="currentColor" stroke-width="2" opacity="0.3"/>
+          <circle cx="100" cy="100" r="60" fill="none" stroke="currentColor" stroke-width="2" opacity="0.5"/>
+          <circle cx="100" cy="100" r="40" fill="none" stroke="currentColor" stroke-width="2" opacity="0.7"/>
+          <circle cx="100" cy="100" r="20" fill="currentColor" opacity="0.8"/>
+        </svg>
+      </div>
+      <button class="modal-close-btn" aria-label="Tutup modal">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="4" x2="20" y2="20"/>
+          <line x1="20" y1="4" x2="4" y2="20"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Modal: EE1 NOTYOU Detected -->
+  <div id="modal-ee1-notyou" class="modal hidden modal-danger" role="dialog" aria-labelledby="modal-notyou-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <svg class="modal-icon" viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <polygon points="7.86,2 16.14,2 22,7.86 22,16.14 16.14,22 7.86,22 2,16.14 2,7.86"/>
+        <line x1="12" y1="7" x2="12" y2="13"/>
+        <line x1="12" y1="16" x2="12" y2="16.01"/>
+      </svg>
+      <h2 id="modal-notyou-title" class="modal-title">NOTYOU DETECTED</h2>
+      <div class="modal-body">
+        <p>AKSES DITOLAK. SISTEM TERKUNCI.</p>
+      </div>
+      <button class="button button--danger" id="notyou-refresh-btn" aria-label="Refresh halaman">HARD REFRESH</button>
+    </div>
+  </div>
+
+  <!-- Modal: EE2 Chaos (Danger) -->
+  <div id="modal-ee2-danger" class="modal hidden" role="dialog" aria-labelledby="modal-danger-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div id="chaos-container" class="chaos-container" aria-hidden="true"></div>
+    <div class="modal-content">
+      <h2 id="modal-danger-title" class="modal-title">APAKAH KAU TAU ARTI DANGER?</h2>
+      <div class="modal-body">
+        <p>Mungkin, tidak.</p>
+      </div>
+      <button class="button button--primary" id="danger-refresh-btn" aria-label="Refresh halaman">REFRESH</button>
+    </div>
+  </div>
+
+  <!-- Modal: EE3 Chain Question Template -->
+  <div id="modal-ee3-question" class="modal hidden" role="dialog" aria-labelledby="modal-question-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-question-title" class="modal-title">Pertanyaan</h2>
+      <div class="modal-body">
+        <p id="modal-question-text">Apakah?</p>
+      </div>
+      <div class="modal-buttons">
+        <button class="button button--primary" id="question-yes-btn" aria-label="Jawab ya">YA</button>
+        <button class="button button--secondary" id="question-no-btn" aria-label="Jawab tidak">TIDAK</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: EE3 Final (All No) -->
+  <div id="modal-ee3-final" class="modal hidden" role="dialog" aria-labelledby="modal-final-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-final-title" class="modal-title">Terima Kasih</h2>
+      <div class="modal-body">
+        <p>Kamu tidak percaya pada diri sendiri?</p>
+        <p>Saatnya untuk percaya.</p>
+      </div>
+      <button class="button button--primary" id="final-redirect-btn" aria-label="Lanjutkan">OK</button>
+    </div>
+  </div>
+
+  <!-- Modal: EE3 Reject (Any Yes) -->
+  <div id="modal-ee3-reject" class="modal hidden" role="dialog" aria-labelledby="modal-reject-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <h2 id="modal-reject-title" class="modal-title">Terima Kasih</h2>
+      <div class="modal-body">
+        <p>Terima kasih telah jujur.</p>
+      </div>
+      <button class="button button--primary" id="reject-redirect-btn" aria-label="Kembali ke awal">OK</button>
+    </div>
+  </div>
+
+  <!-- Modal: EE4 Bunga Click -->
+  <div id="modal-ee4-bunga" class="modal hidden" role="dialog" aria-labelledby="modal-bunga-title">
+    <div class="modal-backdrop" tabindex="0"></div>
+    <div class="modal-content">
+      <svg class="modal-icon" viewBox="0 0 24 24" width="40" height="40" fill="currentColor" aria-hidden="true">
+        <path d="M12 2 L14 10 L22 12 L14 14 L12 22 L10 14 L2 12 L10 10 Z"/>
+      </svg>
+      <h2 id="modal-bunga-title" class="modal-title">KAMU TELAH MENEMUKAN SEMANGAT SEJATI</h2>
+      <div class="modal-body">
+        <p>Pertahankan semangatmu ini.</p>
+      </div>
+      <button class="button button--primary" id="bunga-redirect-btn" aria-label="Redirect ke OMB">SEMANGAT</button>
+    </div>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
