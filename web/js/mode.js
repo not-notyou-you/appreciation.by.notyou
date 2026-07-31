@@ -7,6 +7,7 @@ import { resetBungaPosition, handleBungaClick } from './bunga.js';
 import { resetPhotoPosition } from './swipe.js';
 import { showModal } from './modal.js';
 import { triggerSelfDestruct, resetSelfDestruct } from './self-destruct.js';
+import { stopSemangatVideo } from './semangat-video.js';
 import { triggerEE1Secret, triggerEE3, triggerEE4, triggerEE5 } from './easter-eggs.js';
 import { claimReward } from './reward.js';
 import { findPanitia, validateInput } from './data.js';
@@ -42,6 +43,7 @@ export function switchToPreInput() {
   elements.inputError.textContent = '';
   elements.startButton.disabled = true;
   resetBungaPosition();
+  stopSemangatVideo();
 
   document.body.style.backgroundImage = '';
   document.body.style.backgroundSize = '';

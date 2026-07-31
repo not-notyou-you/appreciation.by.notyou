@@ -5,6 +5,7 @@ import { appState, saveProgress, updateProgressBar } from './state.js';
 import { showModal, closeModal, setupModalDismiss } from './modal.js';
 import { DIVISI_COLORS, EE3_QUESTIONS } from './constants.js';
 import { resetBungaPosition } from './bunga.js';
+import { playSemangatVideo } from './semangat-video.js';
 
 export function triggerEE1Secret(input) {
   if (input === 'NOTYOU') {
@@ -210,7 +211,7 @@ export function triggerEE4() {
 
   elements.bungaRedirectBtn.onclick = () => {
     closeModal(elements.modalEE4Bunga);
-    window.open('https://omb.umn.ac.id', '_blank');
+    playSemangatVideo();
   };
 }
 

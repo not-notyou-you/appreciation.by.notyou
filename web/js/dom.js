@@ -26,6 +26,7 @@ export const elements = {
   backButton: document.getElementById('back-button'),
   selfDestructButton: document.getElementById('self-destruct-button'),
   refreshPrompt: document.getElementById('refresh-prompt'),
+  appreciationVideo: document.getElementById('appreciation-video'),
 
   modalEE1Secret: document.getElementById('modal-ee1-secret'),
   modalEE1Notyou: document.getElementById('modal-ee1-notyou'),
