@@ -219,9 +219,11 @@ export function triggerEE5(divisiName) {
   const validDivisi = Object.keys(DIVISI_COLORS);
   if (!validDivisi.includes(divisiName)) return false;
 
+  const fileName = `${divisiName.toLowerCase()}2.png`;
+
   const downloadLink = document.createElement('a');
-  downloadLink.href = `./assets/divisions/${divisiName}2.webp`;
-  downloadLink.download = `${divisiName}_CHARACTER.webp`;
+  downloadLink.href = `./assets/divisions/${fileName}`;
+  downloadLink.download = fileName;
   document.body.appendChild(downloadLink);
   downloadLink.click();
   document.body.removeChild(downloadLink);

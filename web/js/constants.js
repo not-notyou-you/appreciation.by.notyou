@@ -18,7 +18,7 @@ export const DIVISI_COLORS = {
 };
 
 export const EE3_QUESTIONS = [
-  'Apakah kamu percaya pada diri sendiri?',
+  'Apakah kamu yakin kamu benar?',
   'Apakah kamu sudah memberikan yang terbaik?',
   'Apakah kamu ingin mencoba lagi?',
   'Apakah keputusanmu sudah final?',
@@ -36,15 +36,15 @@ export const BG_IMAGES = [
 ];
 
 export const DIVISI_DESCRIPTIONS = {
-  'ADHIKARA': 'Divisi Adhikara bertugas sebagai pusat kendali yang menentukan langkah dan pedoman bagi seluruh panitia OMB UMN 2026 NEXT.',
+  'ADHIKARA': 'Divisi Adhikara bertugas sebagai pusat kendali yang menentukan langkah dan pedoman bagi seluruh panitia NEXT UMN 2026.',
   'SANCHARA': 'Divisi Sanchara bertugas mengatur jalannya kegiatan agar tersusun rapi, mengalir, dan berkesan dari awal hingga akhir.',
-  'SANCHITA': 'Divisi Sanchita mengabadikan seluruh kegiatan agar dapat dikenang dan menjadi arsip OMB UMN 2026 NEXT.',
-  'BIRENDRA': 'Divisi Birendra menjaga tertib dan keamanan seluruh kegiatan OMB UMN 2026 NEXT.',
+  'SANCHITA': 'Divisi Sanchita mengabadikan seluruh kegiatan agar dapat dikenang dan menjadi arsip NEXT UMN 2026.',
+  'BIRENDRA': 'Divisi Birendra menjaga tertib dan keamanan seluruh kegiatan NEXT UMN 2026.',
   'NAYAKA': 'Divisi Nayaka memastikan semua kebutuhan konsumsi terpenuhi agar peserta nyaman selama kegiatan.',
   'JANARDANA': 'Divisi Janardana memberikan pertolongan dan menjaga keselamatan peserta selama kegiatan berlangsung.',
   'DARAKA': 'Divisi Daraka memastikan semua kebutuhan teknis siap agar kegiatan berjalan lancar.',
   'ARTHA': 'Divisi Artha membimbing dan mengarahkan anggota berdasarkan pengetahuan dan pengalaman yang dimiliki.',
-  'ANANTARA': 'Divisi Anantara menjaga komunikasi yang lancar dan menghubungkan semua pihak terkait kegiatan OMB UMN 2026 NEXT.',
-  'SWARNA': 'Divisi Swarna mengekspresikan kreativitas melalui desain dan visual kegiatan OMB UMN 2026 NEXT.',
+  'ANANTARA': 'Divisi Anantara menjaga komunikasi yang lancar dan menghubungkan semua pihak terkait kegiatan NEXT UMN 2026.',
+  'SWARNA': 'Divisi Swarna mengekspresikan kreativitas melalui desain dan visual kegiatan NEXT UMN 2026.',
   'RACHANA': 'Divisi Rachana menyebarkan informasi secara luas, jelas, dan tepat waktu.'
 };
