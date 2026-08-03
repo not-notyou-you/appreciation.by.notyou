@@ -200,6 +200,10 @@ function generateRewardHTML(panitia) {
     .actions {
       margin-top: 2.5rem;
       text-align: center;
+      display: flex;
+      gap: 0.85rem;
+      justify-content: center;
+      flex-wrap: wrap;
     }
     .actions button {
       padding: 0.9rem 2.25rem;
@@ -218,6 +222,79 @@ function generateRewardHTML(panitia) {
     .actions button:hover {
       background-color: #F7CE1C;
       color: #0d0a0b;
+    }
+    .actions button.secondary {
+      border-color: rgba(255, 255, 255, 0.25);
+      background-color: rgba(255, 255, 255, 0.05);
+      color: #f5f5f5;
+    }
+    .actions button.secondary:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #0d0a0b;
+    }
+    @page {
+      size: A4 landscape;
+      margin: 10mm;
+    }
+    @media print {
+      * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        animation: none !important;
+      }
+      html, body {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+      }
+      body {
+        display: block;
+        padding: 0;
+        background-image: none;
+      }
+      .certificate {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 0;
+        page-break-inside: avoid;
+      }
+      .content {
+        padding: 1.5rem 2rem;
+      }
+      .headline {
+        font-size: 2.1rem;
+        letter-spacing: 6px;
+      }
+      .headline-sub {
+        font-size: 0.7rem;
+      }
+      .presented-to {
+        margin-top: 1.5rem;
+        font-size: 0.68rem;
+      }
+      .name {
+        font-size: 2.5rem;
+      }
+      .name-subtitle {
+        font-size: 0.68rem;
+      }
+      .description {
+        margin-top: 0.85rem;
+        font-size: 0.75rem;
+        line-height: 1.55;
+      }
+      .footer-row {
+        margin-top: 1.5rem;
+      }
+      .stamp {
+        width: 90px;
+        height: 90px;
+      }
+      .actions {
+        display: none;
+      }
     }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(16px); }
@@ -270,6 +347,7 @@ function generateRewardHTML(panitia) {
       </div>
 
       <div class="actions">
+        <button onclick="window.print()" class="secondary">Cetak / Simpan sebagai PDF</button>
         <button onclick="window.location.href='https://omb.umn.ac.id'">Saya Bersemangat</button>
       </div>
     </div>
@@ -287,13 +365,8 @@ export function claimReward() {
   const html = generateRewardHTML(panitia);
   const blob = new Blob([html], { type: 'text/html' });
   const url = URL.createObjectURL(blob);
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = 'reward.html';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  URL.revokeObjectURL(url);
+
+  window.open(url, '_blank');
 
   localStorage.removeItem(STORAGE_PROGRESS_KEY);
   localStorage.removeItem(STORAGE_LAST_KODE_KEY);
